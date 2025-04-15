@@ -1,0 +1,15 @@
+# Load the latest version
+
+df = kagglehub.load_dataset(
+  KaggleDatasetAdapter.PANDAS,
+  "novelbiswas/credit-card-fraud-detection",
+  file_path,
+  # Provide any additional arguments like 
+  # sql_query or pandas_kwargs. See the 
+  # documenation for more information:
+  # https://github.com/Kaggle/kagglehub/blob/main/README.md#kaggledatasetadapterpandas
+)
+
+# or Link
+
+https://www.kaggle.com/datasets/novelbiswas/credit-card-fraud-detection/data
